@@ -1,0 +1,26 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "NodeJs server for landing applications, demos, etc. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazkyChristianNicolas/node-server.git"
+  },
+  "author": "Yazky Christian Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazkyChristianNicolas/node-server/issues"
+  },
+  "homepage": "https://github.com/yazkyChristianNicolas/node-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
